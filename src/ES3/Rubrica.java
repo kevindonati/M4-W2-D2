@@ -1,6 +1,5 @@
 package ES3;
 
-import ES2.Main;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -43,8 +42,7 @@ public class Rubrica {
         Set<String> setChiavi = contatto.keySet();
 
         for (String key : setChiavi) {
-            logger.info("Nome: {}", key);
-            logger.info("Numero: {}", contatto.get(key));
+            logger.info("Nome: {} - Numero: {}", key, contatto.get(key));
         }
     }
 

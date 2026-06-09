@@ -17,7 +17,7 @@ public class Main {
         rubrica.removeContact("Enrico");
         rubrica.showAllContact();
 
-        rubrica.searchContactByName("Luigi");
-        rubrica.searchContactByNumber("252625245");
+        System.out.println(rubrica.searchContactByName("Luigi"));
+        System.out.println(rubrica.searchContactByNumber("252625245"));
     }
 }
